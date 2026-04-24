@@ -577,11 +577,11 @@ return (
           <div style={{fontFamily:"'Orbitron',monospace",fontSize:14,fontWeight:700,color:"#f7931a"}}>{loadPct}%</div>
         </div>
       </div>
-      <div style={{display:"flex",gap:8,flexWrap:"wrap",justifyContent:"center"}}>
-        {["Bitcoin Core","Electrs","Mempool.space","CoinGecko","RSS News"].map(function(n){
-          return <div key={n} style={{padding:"4px 12px",borderRadius:20,background:"rgba(255,255,255,.04)",border:"1px solid rgba(255,255,255,.09)",fontSize:11,color:"rgba(255,255,255,.35)"}}><span style={{color:"#f7931a"}}>●</span> {n}</div>;
-        })}
-      </div>
+          <div style={{fontSize:12,color:"rgba(255,255,255,0.4)",display:"flex",alignItems:"center",justifyContent:"center",gap:6}}>
+            <span>Built with ♥ by</span>
+            <a href="https://prashantbhatt.net" target="_blank" rel="noopener noreferrer" style={{color:"#f7931a",textDecoration:"none",fontWeight:700}}>Prashant Bhatt</a>
+          </div>
+
     </div>
   )}
 
