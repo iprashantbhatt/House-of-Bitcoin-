@@ -1,4 +1,11 @@
-node_modules/ frontend/dist/ frontend/.vite/ 
-backend/.env *.log node_modules/ 
-frontend/dist/ frontend/.vite/ backend/.env 
-*.log *.bak *.bak.* *.save *.backup
+node_modules/
+frontend/dist/
+frontend/.vite/
+backend/.env
+*.log
+*.bak
+*.bak.*
+*.save
+test.txt
+auto-commit.sh
+watch-commit.sh
